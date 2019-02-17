@@ -1,0 +1,15 @@
+@import "../../Common/common.css";
+
+.container{width: 450px; height: 450px;}
+.sq{position: relative; width: 150px; height: 150px;}
+.one{top: 0px; left: 0px; background-color: red;}
+.two{top: 0px; left: 0px; background-color: green;}
+.three{top: 0px; left: 0px; background-color: blue;}
+
+.four{top: -450px; left: 150px; background-color: orange;}
+.five{top: -450px; left: 150px; background-color: pink;}
+.six{top: -450px; left: 150px; background-color: yellow;}
+
+.seven{top: -900px; left: 300px; background-color: gray;}
+.eight{top: -900px; left: 300px; background-color: brown;}
+.nine{top: -900px; left: 300px; background-color: lightcoral;}

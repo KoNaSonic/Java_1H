@@ -1,0 +1,22 @@
+/*.sq{
+    position: absolute;
+    width: 150px; height: 150px; top: 200px; left: 200px;
+    background-color: red;
+}*/
+
+.sq{
+    position: absolute;
+    width: 150px; height: 150px;
+/*    top: 200px; left: 200px;*/
+
+}
+.r{
+    background-color: red;
+    top: 100px; left: 100px;
+
+}
+
+.g{
+    background-color: green;
+    top: 200px; left: 200px;
+}

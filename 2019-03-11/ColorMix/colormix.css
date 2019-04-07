@@ -1,0 +1,19 @@
+@import "../../Common/common.css";
+
+.colorbox{
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    background-color: #f0ad4e;
+    left:400px;
+    top: 150px;
+}
+.rangebox{
+
+    position: absolute;
+    width: 20vw;
+    height: 50vh;
+    background-color: #5bc0de;
+    left:800px;
+    top: 150px;
+}

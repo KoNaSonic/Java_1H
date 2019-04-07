@@ -1,0 +1,35 @@
+@import "../../Common/common.css";
+
+
+
+/*body {*/
+    /*background-image:*/
+            /*-moz-linear-gradient(45deg, #000 25%, transparent 25%,transparent 75%, #000 75%, #000 100%),*/
+            /*-moz-linear-gradient(45deg, #000 25%, transparent 25%,transparent 75%, #000 75%, #000 100%);*/
+    /*background-image:*/
+            /*-webkit-linear-gradient(45deg, #000 25%, transparent 25%,transparent 75%, #000 75%, #000 100%),*/
+            /*-webkit-linear-gradient(45deg, #000 25%, transparent 25%,transparent 75%, #000 75%, #000 100%);*/
+    /*-moz-background-size:100px 100px;*/
+    /*background-size:100px 100px;*/
+    /*-webkit-background-size:101px 101px;*/
+    /*background-position:0 0, 50px 50px;*/
+/*}*/
+.container{
+    padding: 3vmin;
+    border: 0.15vmin solid gray;
+    border-radius: 1vmin;
+    background-color: #f0ad4e;
+}
+
+.container td{
+    width: 10vmin; height: 10vmin;
+    min-width: 10vmin; min-height: 10vmin;
+}
+
+.container tr:nth-child(odd)>td:nth-child(odd) {
+.container tr:nth-child(even)>td:nth-child(even)
+    background: #000;
+}
+.container tr:nth-child(even)>td:nth-child(odd) {
+    background: #000;
+}

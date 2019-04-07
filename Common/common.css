@@ -1,0 +1,7 @@
+*{font-family: Arial}
+body {margin: 0; width: 100vw; height: 100vh}/*normalise body*/
+.centered {position: absolute;
+            left: 50%; top: 50%;/*centered left-up corner of block*/
+            transform: translate(-50%, -50%);}/*moving block*/
+table{border-collapse: collapse;}
+/*table{border-collapse: collapse;}*/

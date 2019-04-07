@@ -1,4 +1,5 @@
-export let Random = {};
+/*export */
+let Random = {};
 
 Random.nextInt = function(min,max){
     return min + Math.floor(Math.random()*(max-min));
@@ -23,9 +24,9 @@ Random.nextBoolean = function(probability){
     probability = probability || 0.5;
     return Math.random() < probability;
 }
-
+let figures = "0123456789abcdef";
 Random.color = function(){
-    let figures = "0123456789abcdef";
+   /* let figures = "0123456789abcdef";*/
     let res = "#";
     for (let i=0; i<6; i++)
         res = res + figures.charAt(Math.floor(16*Math.random()));

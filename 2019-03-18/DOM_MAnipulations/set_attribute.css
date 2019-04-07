@@ -1,0 +1,7 @@
+
+.sqRed{
+    width: 500px;
+    height: 500px;
+    /*background-color: red;*/
+    background: linear-gradient(red , orange);
+}

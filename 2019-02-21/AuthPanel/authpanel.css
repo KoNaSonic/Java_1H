@@ -1,0 +1,49 @@
+@import "../../Common/common.css";
+
+.panel{
+    padding: 2vh 2vw;
+    box-shadow: 0.5vh 0.5vh 1.5vh 0 rgba(0,0,0, 0.25);
+    font-size: 2.5vh;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0.5vh 0.5vw;
+    padding-top: 0.5vh;
+
+    border-bottom: 0.2vh solid gray;
+}
+
+input:focus {
+    border-bottom: 0.2vh solid blue;
+}
+
+.but-bar{
+    position: relative;
+    padding: 3vh 1vw 0 1vw;
+    text-align: center;
+
+    font-size: 4vh;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 1.5vh 1.5vw;
+    background-color: gainsboro;
+    color: white;
+    border-radius: 0.7vh;
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+button:hover{
+    background-color: darkgray;
+    color: lightslategray;
+}
+
+td:first-child{
+    text-align: right;
+    padding-right: 2vw;
+}

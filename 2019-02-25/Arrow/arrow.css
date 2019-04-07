@@ -1,0 +1,11 @@
+.arrow-down{
+    position: absolute;
+    top: 200px; left: 550px; width: 0; height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 173px solid lightblue;
+}
+
+.arrow-up{
+    transform: rotate(180deg);
+}
